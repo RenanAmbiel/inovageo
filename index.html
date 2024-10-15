@@ -17,9 +17,9 @@
 	<body class="is-preload">
 
 		<!-- Wrapper -->
-		q<div id="wrapper">
+		<div id="wrapper">
 
-		<!-- Header -->
+			<!-- Header -->
 			<header id="header">
 
 				<div class="logo">
@@ -48,7 +48,7 @@
 				</nav>
 			</header>
 
-		<!-- Main -->
+			<!-- Main -->
 			<div id="main">
 
 				<!-- Intro -->
@@ -58,7 +58,7 @@
 					<p> Sintrópica Consultoria é uma empresa focada em soluções ambientais e agricolas, fundada pelo estudante Renan, a nossa missão é trabalhar para um futuro mais verde e ecologico. Vendemos <a href="#IA">soluções ambientais</a> para empresas, <a href="#drone">modelos agricolas</a> de produção, <a href="#websig">sites com mapas</a> para seu negocio, alem de auxiliar a <a href="#pesquisa">pesquisa cientifica</a>.</p> 
 				</article>
 
-			<!-- pesquisa -->
+				<!-- pesquisa -->
 				<article id="pesquisa">
 					<h2 class="major">Pesquisa científica <i class="fa-solid fa-book"></i></h2>
 					<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
@@ -67,7 +67,7 @@
 					<p> Um outro metodo de apoio aos grupos de pesquisa é a geração de graficos mapas a partir de tabelas em <a href="#python">python</a>. </p>
 				</article>
 
-			<!-- websig -->
+				<!-- websig -->
 				<article id="websig">
 					<h2 class="major"> Modelo webgis <i class="fa-solid fa-globe"></i></h2>
 					<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
@@ -76,7 +76,7 @@
 					   
 				</article>
 
-			<!-- Python -->
+				<!-- Python -->
 				<article id="python">
 					<h2 class="major"> Python <i class="fa-brands fa-python"></i></h2>
 					<span class="image main"><img src="images/pic04.jpg" alt="" /></span>
@@ -84,15 +84,13 @@
 					<p> No exemplo estamos trabalhando com registros de votação de 2022, uma quantidade massiva de dados com mais de 5 mil linhas sendo processadas e plotadas em formato de mapas.</p>
 				</article>	
 
-			<!-- About -->
+				<!-- About -->
 				<article id="IA">
 					<h2 class="major"> PDI & IA <i class="fa-solid fa-microchip"></i></h2>
 					<span class="image main"><iframe height= 80vh src="https://centered-memory-382618.projects.earthengine.app/view/ndvislplitfalsacor" frameborder="0"></iframe></span>
 					<p>  Acima um exemplo de dois mapas um NDVI outro em RGB divivido por um menu deslizante. Otimo para comparações. </p>
 					<p>  A ferramenta do google earth engine nos proporciona a liberdade de trabalhar com series temporais, indices de vegetação, calcular perda de area florestal e mapas de uso e cobertura do solo por meio de inteligencia artificial.
 					</p>
-					
-					 
 				</article>	
 
 				<!-- About -->
@@ -106,20 +104,18 @@
 				<article id="mapas">
 					<h2 class="major"> mapas temáticos <i class="fa-solid fa-map"></i></h2>
 					<span class="image main"><img src="images/pic07.jpg" alt="" /></span>
-					<p> mapas temáticos </p>
-					<p> mapas temáticos  </p>
+					<p>Os mapas temáticos são uma ferramenta essencial para a visualização de dados geográficos. Muitas vezes dadas em tabelas ou graficos não ficam claros, e uma interpretacão visual simplifica as coisas. </p>
+		            <p>Por meio de diferentes camadas, podemos representar dados sobre uso do solo, distribuição populacional, áreas de preservação e muito mais. </p>
 				</article>	
 
 				<article id="blog">
 					<h2 class="major"> blog de noticias  <i class="fa-regular fa-newspaper"></i></h2>
 					<span class="image main"><img src="images/pic08.jpg" alt="" /></span>
-					<p> noticias </p>
-					<p> noticias noticias  </p>
+					<p> Nosso <a href="https://sintropicaconsultoria-blog.netlify.app/1.html">blog de noticias</a> , é um portal com as principais noticias que ocorrem ao redor do mundo geo trazendo a tona discussoes pertinentes com opniões de cientistas sobre os temas. 
+					<p> O <a href="https://sintropicaconsultoria-blog.netlify.app/1.html">blog</a> contempla noticias das novas geotecnologias do mercado, principais desatres naturais, mercado de credito de carbono, eventos climaticos extremos, noticias do agro, e muito mais. Vamos destrinchar e estudar cada um desses topicos sobre o vies cientifico ambiental.    </p>
 				</article>	
 
-				
-
-			<!-- Contact -->
+				<!-- Contact -->
 				<article id="contact">
 					<h2 class="major">Contato <i class="fa-solid fa-envelope"></i></h2>
 					<form name="contact" method="POST" data-netlify="true">
@@ -137,23 +133,71 @@
 					</ul>
 				</article>
 
+				<section>
+					<h3 class="major">Form</h3>
+					<form method="post" action="enviar-email.php">
+						<div class="fields">
+							<div class="field half">
+								<label for="demo-name">Name</label>
+								<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+							</div>
+							<div class="field half">
+								<label for="demo-email">Email</label>
+								<input type="email" name="demo-email" id="demo-email" value="" placeholder="renane.p@outlook.com" />
+							</div>
+							<div class="field">
+								<label for="demo-category">Category</label>
+								<select name="demo-category" id="demo-category">
+									<option value="">-</option>
+									<option value="1">Manufacturing</option>
+									<option value="1">Shipping</option>
+									<option value="1">Administration</option>
+									<option value="1">Human Resources</option>
+								</select>
+							</div>
+							<div class="field half">
+								<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+								<label for="demo-priority-low">Low</label>
+							</div>
+							<div class="field half">
+								<input type="radio" id="demo-priority-high" name="demo-priority">
+								<label for="demo-priority-high">High</label>
+							</div>
+							<div class="field half">
+								<input type="checkbox" id="demo-copy" name="demo-copy">
+								<label for="demo-copy">Email me a copy</label>
+							</div>
+							<div class="field half">
+								<input type="checkbox" id="demo-human" name="demo-human" checked>
+								<label for="demo-human">Not a robot</label>
+							</div>
+							<div class="field">
+								<label for="demo-message">Message</label>
+								<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+							</div>
+						</div>
+						<ul class="actions">
+							<li><input type="submit" value="Send Message" class="primary" /></li>
+							<li><input type="reset" value="Reset" /></li>
+						</ul>
+					</form>
+				</section>
 			</div>
 
 			<!-- Footer -->
-				<footer id="footer">
-					<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP
-							<p>A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />
-							for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p>
-					</a><p id="mensaagem"></p>
-					</p>
-				</footer>
-
+			<footer id="footer">
+				<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP
+						<p>A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />
+						for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p>
+				</a><p id="mensaagem"></p>
+				</p>
+			</footer>
 		</div>
 
-	<!-- BG -->
+		<!-- BG -->
 		<div id="bg"></div>
 
-	<!-- Scripts -->
+		<!-- Scripts -->
 		<script src="assets/js/jquery.min.js"></script>
 		<script src="assets/js/browser.min.js"></script>
 		<script src="assets/js/breakpoints.min.js"></script>
