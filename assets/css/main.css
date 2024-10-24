@@ -180,7 +180,7 @@ input, select, textarea {
 
 	h1, h2, h4, h5, h6 {
 		color: #ffffff;
-		font-weight: 600;
+		font-weight: 800;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
 		text-transform: uppercase;
@@ -210,7 +210,7 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 2.25rem;
+		font-size: 3.25rem;
 		line-height: 1.3;
 		letter-spacing: 0.5rem;
 	}
@@ -1141,31 +1141,10 @@ input, select, textarea {
 			height: 100%;
 		}
 
-		#bg:before {
-			-moz-transition: background-color 2.5s ease-in-out;
-			-webkit-transition: background-color 2.5s ease-in-out;
-			-ms-transition: background-color 2.5s ease-in-out;
-			transition: background-color 2.5s ease-in-out;
-			-moz-transition-delay: 0.75s;
-			-webkit-transition-delay: 0.75s;
-			-ms-transition-delay: 0.75s;
-			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../../images/overlay.png");
-			background-size: auto,256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat,repeat;
-			z-index: 2;
-		}
+		
 
 		#bg:after {
-			-moz-transform: scale(1.125);
-			-webkit-transform: scale(1.125);
-			-ms-transform: scale(1.125);
-			transform: scale(1.125);
-			-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out;
-			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
-			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
-			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
+			
 			background-image: url("../../images/bgdia.jpg");
 			background-position: center;
 			background-size: cover;
@@ -1173,19 +1152,9 @@ input, select, textarea {
 			z-index: 1;
 		}
 
-		body.is-article-visible #bg:after {
-			-moz-transform: scale(1.0825);
-			-webkit-transform: scale(1.0825);
-			-ms-transform: scale(1.0825);
-			transform: scale(1.0825);
-			-moz-filter: blur(0.2rem);
-			-webkit-filter: blur(0.2rem);
-			-ms-filter: blur(0.2rem);
-			filter: blur(0.2rem);
-		}
+		
 
-		body.is-preload #bg:before {
-			background-color: #000000;
+
 		}
 		#bg.noite:after {
 		    background-image: url("../../images/bgnoite.jpg");
@@ -1288,7 +1257,7 @@ input, select, textarea {
 				position: absolute;
 				top: calc(-3.5rem - 1px);
 				left: calc(50% - 1px);
-				width: 1px;
+				width: 3px;
 				height: calc(3.5rem + 1px);
 				background: #ffffff;
 			}
@@ -1375,8 +1344,9 @@ input, select, textarea {
 					padding: 0 1.25rem 0 1.45rem;
 					text-transform: uppercase;
 					letter-spacing: 0.2rem;
-					font-size: 0.8rem;
+					font-size: 0.7rem;
 					border-bottom: 0;
+					font-weight: bold;
 				}
 
 					#header nav ul li a:hover {
@@ -1393,7 +1363,7 @@ input, select, textarea {
 			position: absolute;
 			top: 0;
 			left: calc(50% - 1px);
-			width: 1px;
+			width: 12px;
 			height: 100%;
 			background: #ffffff;
 		}
@@ -1653,20 +1623,4 @@ input, select, textarea {
 			opacity: 0.75;
 			margin-bottom: 0;
 			text-transform: uppercase;
-		}
-
-		body.is-article-visible #footer {
-			-moz-transform: scale(0.95);
-			-webkit-transform: scale(0.95);
-			-ms-transform: scale(0.95);
-			transform: scale(0.95);
-			-moz-filter: blur(0.1rem);
-			-webkit-filter: blur(0.1rem);
-			-ms-filter: blur(0.1rem);
-			filter: blur(0.1rem);
-			opacity: 0;
-		}
-
-		body.is-preload #footer {
-			opacity: 0;
 		}
