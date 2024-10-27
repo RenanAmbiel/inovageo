@@ -1,8 +1,14 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
+/*
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
 html, body, div, span, applet, object,
-iframe, h1, h2, h3, h4, h5, h6, blockquote,
+iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
@@ -12,37 +18,27 @@ tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;}
 
-
-}
-
-article {
-    margin: 0;
-}
-article h3{
-	margin-top: 30px;}
-article p {
-    margin: 0;
-    text-indent: 30px;
-    margin-bottom: 5px; /* Ajuste este valor conforme necessário */
-}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;}
 
 body {
-    line-height: 1.2; /* Ajuste conforme necessário */
+	line-height: 1;
 }
 
 ol, ul {
-    list-style: none;
+	list-style: none;
 }
 
 blockquote, q {
-    quotes: none;
+	quotes: none;
 }
 
 	blockquote:before, blockquote:after, q:before, q:after {
@@ -107,10 +103,7 @@ input, select, textarea {
 			-webkit-animation: none !important;
 			-ms-animation: none !important;
 			animation: none !important;
-			-moz-transition: none !important;
-			-webkit-transition: none !important;
-			-ms-transition: none !important;
-			transition: none !important;
+			
 		}
 
 /* Type */
@@ -152,10 +145,7 @@ input, select, textarea {
 	}
 
 	a {
-		-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+		
 		border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
 		text-decoration: none;
 		color: inherit;
@@ -178,20 +168,13 @@ input, select, textarea {
 		margin: 0 0 2rem 0;
 	}
 
-	h1, h2, h4, h5, h6 {
+	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
 		font-weight: 600;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
 		text-transform: uppercase;
-		letter-spacing: 0.02rem;
-	}
-	h3 {
-		color: #ffffff;
-		font-weight: 600;
-		line-height: 1.5;
-		margin: 0 0 1rem 0;
-		letter-spacing: 0.03rem;
+		letter-spacing: 0.2rem;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -406,10 +389,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		-moz-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		-webkit-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		-ms-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+		
 		background-color: transparent;
 		border-radius: 4px;
 		border: solid 1px #ffffff;
@@ -523,10 +503,7 @@ input, select, textarea {
 
 			input[type="checkbox"] + label:before,
 			input[type="radio"] + label:before {
-				-moz-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
-				-webkit-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
-				-ms-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
-				transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+				
 				border-radius: 4px;
 				border: solid 1px #ffffff;
 				content: '';
@@ -658,7 +635,6 @@ input, select, textarea {
 		.image:before {
 			pointer-events: none;
 			background-image: url("../../images/overlay.png");
-			background-color: rgba(19, 21, 25, 0.0);
 			border-radius: 4px;
 			content: '';
 			display: block;
@@ -1018,10 +994,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		
 		background-color: transparent;
 		border-radius: 4px;
 		border: 0;
@@ -1118,10 +1091,7 @@ input, select, textarea {
 /* BG */
 
 	#bg {
-		-moz-transform: scale(1.0);
-		-webkit-transform: scale(1.0);
-		-ms-transform: scale(1.0);
-		transform: scale(1.0);
+
 		-webkit-backface-visibility: hidden;
 		position: fixed;
 		top: 0;
@@ -1133,6 +1103,7 @@ input, select, textarea {
 
 		#bg:before, #bg:after {
 			content: '';
+			display: block;
 			position: absolute;
 			top: 0;
 			left: 0;
@@ -1141,35 +1112,31 @@ input, select, textarea {
 		}
 
 		#bg:before {
-			-moz-transition: background-color 2.5s ease-in-out;
-			-webkit-transition: background-color 2.5s ease-in-out;
-			-ms-transition: background-color 2.5s ease-in-out;
-			transition: background-color 2.5s ease-in-out;
-			-moz-transition-delay: 0.75s;
-			-webkit-transition-delay: 0.75s;
-			-ms-transition-delay: 0.75s;
-			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../../images/overlay.png");
-			background-position: center, center;
-			background-repeat: no-repeat,repeat;
+			
+			background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.0)), url("../../images/overlay.png");
+			background-size: auto,
+ 			256px 256px;
+			background-position: center,
+ 			center;
+			background-repeat: no-repeat,
+ 			repeat;
+			z-index: 2;
 		}
 
 		#bg:after {
-			-moz-transform: scale(1.125);
-			-webkit-transform: scale(1.125);
-			-ms-transform: scale(1.125);
-			transform: scale(1.125);
-			-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out;
-			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
-			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
-			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
 			background-image: url("../../images/bgdia.jpg");
-
+			background-position: center;
+			background-size: auto;  /*nao redimensiona a imagem */
+			background-repeat: repeat; /* corte de pedaço e repetiçao*/
+			z-index: 1;
 		}
-		#bg.noite:after {
-		    background-image: url("../../images/bgnoite.jpg");
-		    filter: brightness(1.2)
 
+		body.is-article-visible #bg:after {
+			filter: blur(0.07rem);
+		}
+
+		body.is-preload #bg:before {
+			background-color: #000000;
 		}
 
 /* Wrapper */
@@ -1202,25 +1169,8 @@ input, select, textarea {
 			content: '';
 			display: block;
 		}
-		@media screen and (max-width: 2020px) {
-		#bg:after {
-			background-image: url("../../images/bgdia.jpg");
-		}
-
-		#bg.noite:after {
-		    background-image: url("../../images/bgnoite.jpg");
-
-		}
 
 		@media screen and (max-width: 1680px) {
-		#bg:after {
-			background-image: url("../../images/bgdia_notebook.jpg");
-		}
-
-		#bg.noite:after {
-		    background-image: url("../../images/bgnoite.jpg");
-
-		}
 
 			#wrapper {
 				padding: 3rem 2rem;
@@ -1259,23 +1209,13 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-		-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-		-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-		transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-		background-image: -moz-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
-		background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
-		background-image: -ms-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
-		background-image: radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
+
 		max-width: 100%;
 		text-align: center;
 	}
 
 		#header > * {
-			-moz-transition: opacity 0.325s ease-in-out;
-			-webkit-transition: opacity 0.325s ease-in-out;
-			-ms-transition: opacity 0.325s ease-in-out;
-			transition: opacity 0.325s ease-in-out;
+			
 			position: relative;
 			margin-top: 3.5rem;
 		}
@@ -1320,14 +1260,7 @@ input, select, textarea {
 		}
 
 			#header .content .inner {
-				-moz-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
-				-webkit-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
-				-ms-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
-				transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
-				-moz-transition-delay: 0.25s;
-				-webkit-transition-delay: 0.25s;
-				-ms-transition-delay: 0.25s;
-				transition-delay: 0.25s;
+				
 				padding: 3rem 2rem;
 				max-height: 40rem;
 				overflow: hidden;
@@ -1354,7 +1287,6 @@ input, select, textarea {
 			padding-left: 0;
 			border: solid 1px #ffffff;
 			border-radius: 4px;
-
 		}
 
 			#header nav ul li {
@@ -1374,9 +1306,8 @@ input, select, textarea {
 					padding: 0 1.25rem 0 1.45rem;
 					text-transform: uppercase;
 					letter-spacing: 0.2rem;
-					font-size: 0.65rem;
+					font-size: 0.8rem;
 					border-bottom: 0;
-					font-weight: bold;
 				}
 
 					#header nav ul li a:hover {
@@ -1402,24 +1333,8 @@ input, select, textarea {
 			border-left: 0;
 		}
 
-		body.is-article-visible #header {
-			-moz-transform: scale(0.95);
-			-webkit-transform: scale(0.95);
-			-ms-transform: scale(0.95);
-			transform: scale(0.95);
-			-moz-filter: blur(0.1rem);
-			-webkit-filter: blur(0.1rem);
-			-ms-filter: blur(0.1rem);
-			filter: blur(0.1rem);
-			opacity: 0;
-		}
 
-		body.is-preload #header {
-			-moz-filter: blur(0.125rem);
-			-webkit-filter: blur(0.125rem);
-			-ms-filter: blur(0.125rem);
-			filter: blur(0.125rem);
-		}
+	
 
 			body.is-preload #header > * {
 				opacity: 0;
@@ -1545,14 +1460,8 @@ input, select, textarea {
 	}
 
 		#main article {
-			-moz-transform: translateY(0.25rem);
-			-webkit-transform: translateY(0.25rem);
-			-ms-transform: translateY(0.25rem);
-			transform: translateY(0.25rem);
-			-moz-transition: opacity 0.325s ease-in-out, -moz-transform 0.325s ease-in-out;
-			-webkit-transition: opacity 0.325s ease-in-out, -webkit-transform 0.325s ease-in-out;
-			-ms-transition: opacity 0.325s ease-in-out, -ms-transform 0.325s ease-in-out;
-			transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
+			
+			
 			padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
 			position: relative;
 			width: 40rem;
@@ -1563,10 +1472,7 @@ input, select, textarea {
 		}
 
 			#main article.active {
-				-moz-transform: translateY(0);
-				-webkit-transform: translateY(0);
-				-ms-transform: translateY(0);
-				transform: translateY(0);
+				
 				opacity: 1;
 			}
 
@@ -1584,10 +1490,7 @@ input, select, textarea {
 			}
 
 				#main article .close:before {
-					-moz-transition: background-color 0.2s ease-in-out;
-					-webkit-transition: background-color 0.2s ease-in-out;
-					-ms-transition: background-color 0.2s ease-in-out;
-					transition: background-color 0.2s ease-in-out;
+					
 					content: '';
 					display: block;
 					position: absolute;
@@ -1597,7 +1500,6 @@ input, select, textarea {
 					height: 2.5rem;
 					border-radius: 100%;
 					background-position: center;
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='20px' height='20px' viewBox='0 0 20 20' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23ffffff%3B stroke-width: 1%3B %7D%3C/style%3E%3Cline x1='2' y1='2' x2='18' y2='18' /%3E%3Cline x1='18' y1='2' x2='2' y2='18' /%3E%3C/svg%3E");
 					background-size: 20px 20px;
 					background-repeat: no-repeat;
 				}
@@ -1637,10 +1539,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-		-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-		-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-		transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
+		
 		width: 100%;
 		max-width: 100%;
 		margin-top: 2rem;
@@ -1655,111 +1554,7 @@ input, select, textarea {
 			text-transform: uppercase;
 		}
 
-		body.is-article-visible #footer {
-			-moz-transform: scale(0.95);
-			-webkit-transform: scale(0.95);
-			-ms-transform: scale(0.95);
-			transform: scale(0.95);
-			-moz-filter: blur(0.1rem);
-			-webkit-filter: blur(0.1rem);
-			-ms-filter: blur(0.1rem);
-			filter: blur(0.1rem);
-			opacity: 0;
-		}
 
 		body.is-preload #footer {
 			opacity: 0;
 		}
-
-@media screen and (max-width: 414px) and (max-height: 896px) and (min-width: 360px) and (min-height: 640px) /*celular */
-{
-		#bg:after {
-			background-image: url("../../images/bgdiamobile.jpg");
-		}
-
-		#bg.noite:after {
-		    background-image: url("../../images/bgnoite.jpg");
-
-		}
-}
-@media screen and (max-width: 800px) and (max-height: 1280px) and (min-width:415px) and (min-height: 897px) /*tablet */
-{
-		#bg:after {
-			background-image: url("../../images/bgdiamobile.jpg");
-		}
-
-		#bg.noite:after {
-		    background-image: url("../../images/bgnoite.jpg");
-
-		}
-
-
-}
-@media screen and (max-width: 1080px) and (max-height: 1920px) and (min-width: 801px) and (min-height: 1281px) /*desktop tela retrato*/
-{
-		#bg:after {
-			background-image: url("../../images/bgdiamobile.jpg");
-		}
-
-		#bg.noite:after {
-		    background-image: url("../../images/bgnoite.jpg");
-
-		}
-}
-
-@media screen and (max-width: 896px) and (max-height: 414px) and (min-width:640px) and (min-height: 360px) /*celular paisagem */
-{
-		#bg:after {
-			background-image: url("../../images/bgdiamobile_paisagem.jpg");
-		}
-
-		#bg.noite:after {
-		    background-image: url("../../images/bgnoite.jpg");
-
-		}
-}
-@media screen and (max-width: 1110px) and (max-height: 800px) and (min-width:897px) and (min-height: 415px) /*tablet paisagem */
-{
-		#bg:after {
-			background-image: url("../../images/bgdia_notebook.jpg");
-		}
-
-		#bg.noite:after {
-		    background-image: url("../../images/bgnoite.jpg");
-
-		}
-	
-}
-@media screen and (max-width: 1920px) and (max-height: 1080px) and (min-width: 1111px) and (min-height: 801px) /*notebook*/
-{
-		#bg:after {
-			background-image: url("../../images/bgdia_notebook.jpg");
-		}
-
-		#bg.noite:after {
-		    background-image: url("../../images/bgnoite.jpg");
-
-		}
-}
-@media screen and (max-width: 3840px) and (max-height: 2160px) and (min-width: 1921px) and (min-height: 1080px) /*desktop*/
-{
-		#bg:after {
-			background-image: url("../../images/bgdia.jpg");
-		}
-
-		#bg.noite:after {
-		    background-image: url("../../images/bgnoite.jpg");
-
-		}
-}
-@media screen and (min-width: 3841px) and (min-height: 2161px) 												/*tv */
-{
-		#bg:after {
-			background-image: url("../../images/bgdia.jpg");
-		}
-
-		#bg.noite:after {
-		    background-image: url("../../images/bgnoite.jpg");
-		}
-}
-
