@@ -1171,7 +1171,7 @@ input, select, textarea {
 	
 		#bg.noite:after {
 		    background-image: url("../../images/bgnoite.jpg");
-		    filter: brightness(1.5)
+		    filter: brightness(1.2)
 
 		}
 
