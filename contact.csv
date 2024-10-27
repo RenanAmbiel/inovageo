@@ -1,5 +1,7 @@
-"name","email","message","ip","user_agent","referrer","created_at"
-"nilton","schumi.lpc@gmail.com","gostei desse site ficou muito bom ","177.95.146.135","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36","https://sintropicaconsultoria.netlify.app/","2024-10-18T22:11:27.038Z"
-"Margarete","msambiel@gmail.com","Parabéns! Vc vai ser sucesso! Fedido","2804:7f0:9180:c4c7:41aa:ab7d:28:2d0f","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36","https://sintropicaconsultoria.netlify.app/","2024-10-17T17:08:18.408Z"
-"the doors","thedoors@outlook.com","hi doors","2804:7f0:9180:c4c7:8dd1:72e3:b9e2:3dc1","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0","https://sintropicaconsultoria.netlify.app/","2024-10-15T17:45:55.837Z"
-"Jimmi hendrix","hendrix.jimmi@hotmail.com","jimmi","2804:7f0:9180:c4c7:8dd1:72e3:b9e2:3dc1","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0","https://sintropicaconsultoria.netlify.app/","2024-10-15T17:40:53.908Z"
+	#bg:after {
+			background-image: url("../../images/bgdia.jpg");
+		}
+
+		#bg.noite:after {
+		    background-image: url("../../images/bgnoite.jpg");
+		}
