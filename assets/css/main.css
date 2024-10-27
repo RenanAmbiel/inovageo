@@ -1673,7 +1673,7 @@ input, select, textarea {
 
 @media screen and (max-width: 414px) and (max-height: 896px) and (min-width: 360px) and (min-height: 640px) /*celular */
 {
-	#bg:after {
+		#bg:after {
 			background-image: url("../../images/bgdiamobile.jpg");
 		}
 
@@ -1709,57 +1709,8 @@ input, select, textarea {
 
 @media screen and (max-width: 896px) and (max-height: 414px) and (min-width:640px) and (min-height: 360px) /*celular paisagem */
 {
-	#bg:after {
-			background-image: url("../../images/bgdia_notebook.jpg");
-		}
-
-		#bg.noite:after {
-		    background-image: url("../../images/bgnoite.jpg");
-
-		}
-		#header {
-				padding: 1.5rem 0;
-			}
-
-				#header .content .inner {
-					padding: 2.5rem 0;
-				}
-
-				#header nav ul {
-					-moz-flex-direction: column;
-					-webkit-flex-direction: column;
-					-ms-flex-direction: column;
-					flex-direction: column;
-					min-width: 10rem;
-					max-width: 100%;
-				}
-
-					#header nav ul li {
-						border-left: 0;
-						border-top: solid 1px #ffffff;
-					}
-
-						#header nav ul li:first-child {
-							border-top: 0;
-						}
-
-						#header nav ul li a {
-							height: 3rem;
-							line-height: 3rem;
-							min-width: 0;
-							width: 100%;
-						}
-
-				#header nav.use-middle:after {
-					display: none;
-				}
-
-		}
-}
-@media screen and (max-width: 1280px) and (max-height: 800px) and (min-width:897px) and (min-height: 415px) /*tablet paisagem */
-{
-	#bg:after {
-			background-image: url("../../images/bgdia_notebook.jpg");
+		#bg:after {
+			background-image: url("../../images/bgdiamobile_paisagem.jpg");
 		}
 
 		#bg.noite:after {
@@ -1767,9 +1718,21 @@ input, select, textarea {
 
 		}
 }
-@media screen and (max-width: 1920px) and (max-height: 1080px) and (min-width: 1281px) and (min-height: 801px) /*notebook*/
+@media screen and (max-width: 1110px) and (max-height: 800px) and (min-width:897px) and (min-height: 415px) /*tablet paisagem */
 {
-	#bg:after {
+		#bg:after {
+			background-image: url("../../images/bgdia_notebook.jpg");
+		}
+
+		#bg.noite:after {
+		    background-image: url("../../images/bgnoite.jpg");
+
+		}
+	
+}
+@media screen and (max-width: 1920px) and (max-height: 1080px) and (min-width: 1111px) and (min-height: 801px) /*notebook*/
+{
+		#bg:after {
 			background-image: url("../../images/bgdia_notebook.jpg");
 		}
 
@@ -1780,7 +1743,7 @@ input, select, textarea {
 }
 @media screen and (max-width: 3840px) and (max-height: 2160px) and (min-width: 1921px) and (min-height: 1080px) /*desktop*/
 {
-	#bg:after {
+		#bg:after {
 			background-image: url("../../images/bgdia.jpg");
 		}
 
@@ -1791,13 +1754,12 @@ input, select, textarea {
 }
 @media screen and (min-width: 3841px) and (min-height: 2161px) 												/*tv */
 {
-	#bg:after {
+		#bg:after {
 			background-image: url("../../images/bgdia.jpg");
 		}
 
 		#bg.noite:after {
 		    background-image: url("../../images/bgnoite.jpg");
-
 		}
 }
 
