@@ -1564,3 +1564,8 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+	@media screen and (max-height: 700px) {
+		iframe {
+			width: 100%; 
+			height: 222px
+		}
