@@ -131,9 +131,7 @@
 		            <h3> Mapas Distribuição Populacional </h3><p>A distribuição populacional é um aspecto fundamental para entender dinâmicas sociais e econômicas em uma região. Ao mapear a população, é possível identificar padrões de urbanização, áreas de alta densidade habitacional e lacunas de serviços essenciais. Esses dados ajudam a embasar políticas públicas, direcionar investimentos em infraestrutura e otimizar a alocação de recursos, garantindo que comunidades em crescimento recebam o suporte necessário. </p>
 		            <h3> Mapas Topográficos</h3>	
 		            <p>Os mapas topográficos são essenciais para a visualização detalhada da superfície terrestre, representando elevações, depressões e formas de relevo. Através de diferentes camadas, esses mapas fornecem informações sobre a geomorfologia de uma área, permitindo análises sobre drenagem, habitat e acessibilidade. Além disso, eles são cruciais para atividades como planejamento urbano, gestão de recursos naturais e áreas de Preservação  permanente (APP).</p>
-		            <h3> Mapa de Uso e Cobertura do Solo </h3><p>Os mapas de uso e cobertura do solo são ferramentas indispensáveis para compreender como os espaços são utilizados e quais tipos de vegetação predominam em uma região. Eles ajudam a identificar áreas urbanas, agrícolas, florestais e de preservação, permitindo uma análise crítica sobre as mudanças no uso da terra ao longo do tempo. Essa informação é vital para a elaboração de políticas de desenvolvimento sustentável, planejamento ambiental e monitoramento de alterações que podem impactar os ecossistemas locais.
-
- </p>
+		            <h3> Mapa de Uso e Cobertura do Solo </h3><p>Os mapas de uso e cobertura do solo são ferramentas indispensáveis para compreender como os espaços são utilizados e quais tipos de vegetação predominam em uma região. Eles ajudam a identificar áreas urbanas, agrícolas, florestais e de preservação, permitindo uma análise crítica sobre as mudanças no uso da terra ao longo do tempo. Essa informação é vital para a elaboração de políticas de desenvolvimento sustentável, planejamento ambiental e monitoramento de alterações que podem impactar os ecossistemas locais. </p>
 				</article>	
 
 				<article id="blog">
@@ -190,11 +188,11 @@
 		<script src="assets/js/main.js"></script>
 		<script>
 			const agora = new Date()
-			const horas = 7;
+			const horas = agora.getHours();
 			const minutos = agora.getMinutes();
 			const segundos = agora.getSeconds();
 			const bgDiv = document.getElementById('bg')
-			if (horas >= 18 || horas < 6)
+			if (horas >= 23 || horas < 6)
             {
                 bgDiv.classList.add('noite')
             }
