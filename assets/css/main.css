@@ -1117,7 +1117,7 @@ input, select, textarea {
 
 		#bg:before {
 			
-			background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.0)), url("../../images/overlay.png");
+			background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.0)), url("../../images/overlay.png");
 			background-size: auto,
  			256px 256px;
 			background-position: center,
@@ -1132,7 +1132,7 @@ input, select, textarea {
 			background-position: center;
 			background-size: auto;  /*nao redimensiona a imagem */
 			background-repeat: repeat; /* corte de pedaço e repetiçao*/
-			filter: brightness(160%);
+			filter: brightness(200%);
 			z-index: 1;
 		}
 
