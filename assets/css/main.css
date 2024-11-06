@@ -1117,7 +1117,7 @@ input, select, textarea {
 
 		#bg:before {
 			
-			background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.0)), url("../../images/overlay.png");
+			background-image: linear-gradient(to top, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("../../images/overlay.png");
 			background-size: auto,
  			256px 256px;
 			background-position: center,
@@ -1132,16 +1132,18 @@ input, select, textarea {
 			background-position: center;
 			background-size: auto;  /*nao redimensiona a imagem */
 			background-repeat: repeat; /* corte de pedaço e repetiçao*/
-			filter: brightness(200%);
+			filter: brightness(199%);
 			z-index: 1;
 		}
 
 		body.is-article-visible #bg:after {
 			filter: blur(0.07rem);
+			filter: brightness(260%);
+
 		}
 
 		body.is-preload #bg:before {
-			background-color: #000000;
+			background-color: white;
 		}
 
 /* Wrapper */
@@ -1312,17 +1314,21 @@ input, select, textarea {
 					padding: 0 1.25rem 0 1.45rem;
 					text-transform: uppercase;
 					letter-spacing: 0.2rem;
-					font-size: 0.65rem;
+					font-size: 0.85rem;
 					border-bottom: 0;
 					font-weight: bold;
+					background-color: rgba(0, 0, 044, 0.9);
+
+
 				}
 
 					#header nav ul li a:hover {
-						background-color: rgba(255, 255, 255, 0.075);
+						background-color: rgba(255, 255, 255, 0.375);
+						color: black;
 					}
 
 					#header nav ul li a:active {
-						background-color: rgba(255, 255, 255, 0.175);
+						background-color: rgba(255, 255, 255, 0.375);
 					}
 
 		#header nav.use-middle:after {
