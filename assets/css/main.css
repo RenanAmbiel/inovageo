@@ -1117,7 +1117,7 @@ input, select, textarea {
 
 		#bg:before {
 			
-			background-image: linear-gradient(to top, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("../../images/overlay.png");
+			background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.0)), url("../../images/overlay.png");
 			background-size: auto,
  			256px 256px;
 			background-position: center,
@@ -1132,13 +1132,15 @@ input, select, textarea {
 			background-position: center;
 			background-size: auto;  /*nao redimensiona a imagem */
 			background-repeat: repeat; /* corte de pedaço e repetiçao*/
-			filter: brightness(199%);
+			filter: brightness(222%);
 			z-index: 1;
 		}
 
 		body.is-article-visible #bg:after {
 			filter: blur(0.07rem);
-			filter: brightness(260%);
+			filter: brightness(333%);
+			transition: filter .6s ease;
+
 
 		}
 
@@ -1317,7 +1319,7 @@ input, select, textarea {
 					font-size: 0.85rem;
 					border-bottom: 0;
 					font-weight: bold;
-					background-color: rgba(0, 0, 044, 0.9);
+					background-color: rgba(27, 31, 34, 0.85)
 
 
 				}
